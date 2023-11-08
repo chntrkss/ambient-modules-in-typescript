@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "declaration": true,
+    "outDir": "./dist" // Don't forget the comma
+
+    // with typeRoots
+    // "typeRoots": ["./types"],
+    // "types": ["chn-math-library"]
+
+    // with paths
+    // "baseUrl": "./",
+    // "paths": {
+    //     "chn-math-library": ["types/chn-math-library.d.ts"]
+    // }
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
