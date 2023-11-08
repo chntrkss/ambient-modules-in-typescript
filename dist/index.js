@@ -4,4 +4,4 @@ const addition = add(2, 3);
 const subtraction = subtract(addition, 5);
 console.log('addition :>> ', addition);
 console.log('subtraction :>> ', subtraction);
-console.log('manhattan :>> ', manhattan);
+console.log('manhattan');
